@@ -7,3 +7,5 @@ This repo contains materials about computational statistics and mathematics. Thi
 - Bayesian Statistics
 - Mathematical Statistics/Probability
 - Multivariate Statistics
+
+*Other folders will be added as I develop,i.e., time series, numerical analysis, optimization, just to name a few. 
