@@ -1,6 +1,6 @@
 # Stats-Math-Computing
 
-This repo contains materials about computational statistics and mathematics. This can range from simulations to implemenations of algorithms. 
+This repo contains materials about mathematical/computational statistics, mathematics, and computing. This can range from simulations to implemenations of algorithms. 
 
 #Structure of Repo
 
