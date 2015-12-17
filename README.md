@@ -10,6 +10,5 @@
 - Multivariate Statistics
 
 #Software
-- R
-- Python
-- Matlab
+- Currently, all implementations are in R.
+- Future software implementations will include Python and maybe Matlab. 
