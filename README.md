@@ -13,5 +13,3 @@
 - R
 - Python
 - Matlab
-
-*Other folders will be added as I develop,i.e., time series, numerical analysis, optimization, just to name a few. 
