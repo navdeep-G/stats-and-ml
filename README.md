@@ -11,4 +11,4 @@
 
 #Software
 - Currently, all implementations and scripts are in R.
-- Future software implementations and scripts will include Python and maybe Matlab. 
+- Future software implementations and scripts will be done in Python.
