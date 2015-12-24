@@ -1,8 +1,6 @@
-# This R program transforms independent BVN to (X1,X2) correlated BVN (W1,W2)
+# This R program transforms independent BVN (X1,X2) to correlated BVN (W1,W2)
 
 n = 2000
-
-# The goal is to simulate the the 
 
 muw1 = 10
 muw2 = 25
