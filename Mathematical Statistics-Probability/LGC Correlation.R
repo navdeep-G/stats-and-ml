@@ -3,15 +3,13 @@
 library(rgl)
 
 # Note: This is a TERRIBLE LCG used only to show the correlation. 
-
-N=26
-
-Seed       = 44
-Mvalue     = 26
-Cvalue     = 27
-Dvalue     = 3
-v1         = numeric(N)
-v1[1]      = Seed
+N = 26
+Seed = 44
+Mvalue = 26
+Cvalue = 27
+Dvalue = 3
+v1 = numeric(N)
+v1[1] = Seed
 for (i in 2:N)
 	{Next = (Cvalue*Seed + Dvalue)%%Mvalue
        v1[i] = Next
