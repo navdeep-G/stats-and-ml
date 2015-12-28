@@ -1,6 +1,8 @@
-# Stats-Math-Computing
+# Statistical Computing
 
-- Materials about mathematical statistics, statistical computing, & mathematics. 
+![Statistical Computing](radial_rgl.png)
+
+- Materials about mathematical statistics & statistical computing
 - This can range from simulations, implemenations of algorithms, and some data analysis.
 
 ## Structure of Repo
