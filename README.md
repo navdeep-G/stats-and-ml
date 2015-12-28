@@ -1,6 +1,6 @@
 # Statistical Computing
 
-![Statistical Computing](radial_rgl.png)
+![Statistical Computing](biv_3-600x459.png)
 
 - Materials about mathematical statistics & statistical computing
 - This can range from simulations, implemenations of algorithms, and some data analysis.
