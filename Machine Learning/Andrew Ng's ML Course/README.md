@@ -6,4 +6,4 @@
 
 ## Reference Materials
 - Each sub-folder having the title of an algorithm has a `.pdf` file, which goes over the exercise and algorithm used.
-- This repo also contains a [brief Matlab tutorial](https://github.com/navdeep-G/Machine-Learning/tree/master/Matlab%20Tutorial) for those not familiar with the language.
+- This folder also contains a [brief Matlab tutorial](https://github.com/navdeep-G/awesome-statistics-ml/tree/master/Machine%20Learning/Andrew%20Ng's%20ML%20Course/Matlab%20Tutorial) for those not familiar with the language.
