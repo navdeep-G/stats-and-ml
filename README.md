@@ -13,6 +13,7 @@
 - Mathematical Statistics/Probability
 - Multivariate Statistics
 - Statistical Computing
+- Machine Learning
 
 ## Software
-- Currently, all implementations and scripts are in R.
+- Currently, all implementations and scripts are in R & Matlab
