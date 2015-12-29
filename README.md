@@ -1,4 +1,4 @@
-# Statistics
+# Awesome Statistics
 
 ![Statistical Computing](biv_3-600x459.png)
 
