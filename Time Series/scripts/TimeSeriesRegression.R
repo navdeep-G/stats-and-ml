@@ -150,20 +150,28 @@ plot(jj.ts,type = "l", xlab="Quarter",ylab="")
 #Address by taking the log of the data, resulting graph shows greatly equalizes variance
 plot(diff(log(jj.ts)), ylim = c(-1,1), type = "l", xlab = "Quarter", ylab = "")
 
+#Develop fit for jj data and look at summary
 fit = lm(jj.ts~t, data = jj.ts)
 summary(fit)
+
+#Develop fit on log transformation of jj data and then look at summary
 fit.1 = lm(log(jj.ts)~t, data = jj.ts)
 summary(fit.1)
+
 #Evaluating model assumptions
 plot(fit.1$residuals)
+
 #Checking for autocorrelation
 acf(fit.1$resid)
+
 #Homoscedasticity 
 durbinWatsonTest(fit.1$resid)
+
 #Test for normality
 shapiro.test(fit.1$residuals)
 qqnorm(fit.1$residuals)
 qqline(fit.1$residuals)
+
 #Assumptions met
 new.data = data.frame(t = 85:88)
 y.pred = predict(fit.1, new.data, interval="prediction")
@@ -176,15 +184,27 @@ points(85:88,y.pred[,3],col="blue")
 
 #global temperature data
 tmp = scan("../data/globtemp.txt")
+
+#Set up years for data
 years = seq(1856,1997)
-tmp = tmp[years >= 1900] #only looking at 1900-1997
+
+#Only looking at 1900-1997
+tmp = tmp[years >= 1900]
 years = seq(1900,1997)
+
+#Develop time series object
 tmp.ts=ts(tmp)
 t=time(tmp.ts)
 plot(tmp.ts)
+
+#Develop fit of temp data
 fit=lm(tmp.ts~t,data=tmp.ts)
 summary(fit)
+
+#Check for normality--Seems to be normal.
 shapiro.test(fit$residuals)
+
+#Set up prediction set, predict, and plot predictions
 new.data = data.frame(t = 99:103)
 y.pred = predict(fit, new.data, interval="prediction")
 plot(tmp.ts,xlim = c(0,100), ylim = c(-1,1))
