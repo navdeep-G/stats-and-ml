@@ -10,10 +10,10 @@
 ## Structure of Repo
 
 - Bayesian Statistics
+- Machine Learning
 - Mathematical Statistics/Probability
 - Multivariate Statistics
 - Statistical Computing
-- Machine Learning
 - Time Series
 
 ## Software
