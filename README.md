@@ -14,6 +14,7 @@
 - Multivariate Statistics
 - Statistical Computing
 - Machine Learning
+- Time Series
 
 ## Software
 - Currently, all implementations and scripts are in R & Matlab
