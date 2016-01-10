@@ -17,4 +17,4 @@
 - Time Series
 
 ## Software
-- Currently, all implementations and scripts are in R & Matlab
+- Currently, all implementations and scripts are in R, Matlab, and Python
