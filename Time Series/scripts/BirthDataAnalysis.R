@@ -8,8 +8,8 @@ library(lmtest)
 library(car)
 
 #Read in file and set up time series using first 30 years:
-birth = scan("birth.txt")
-birth.ts = ts(birth[1:360])
+birth = scan("../data/birth.txt")
+birth.ts = ts(birth[1:372])
 #==============================================================================================================================
 
 #Analyze using standard regression techniques. I will report trend and

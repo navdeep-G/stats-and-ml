@@ -28,7 +28,7 @@ hotel.hw$alpha
 hotel.hw$beta
 
 #95% prediction intervals and plot of data with predictions.
-hotel.pred=forecast(hotel.hw,12,level=c(95))
+hotel.pred=forecast(hotel.hw,1,level=c(95))
 hotel.pred
 plot(hotel.pred)
 
