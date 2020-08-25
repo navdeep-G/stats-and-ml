@@ -1,4 +1,4 @@
-# Awesome Statistics & Machine Learning
+# Statistics & Machine Learning
 
 ![Statistical Computing](biv_3-600x459.png)
 
